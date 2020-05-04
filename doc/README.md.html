@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>README.md</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" media="all" href="doc-style.css" />
+  <script src="doc-filelist.js"></script>
+  <script>
+    var relativeDir = "";
+    var thisFile = "README.md";
+    var defaultSidebar = true;
+  </script>
+  <script src="doc-script.js"></script>
+
+</head>
+<body>
+  <div id="sidebar_wrapper">
+    <div id="sidebar_switch">
+      <span class="tree">Files</span>
+      <span class="headings">Headings</span>
+    </div>
+    <div id="tree"></div>
+    <div id="headings">
+
+      <div class="heading h1">
+        <a href="#getting-started-with-jfrog-docker-repos-example">Getting started with JFrog Docker Repos - Example</a>
+      </div>
+
+    </div>
+  </div>
+  <div id="sidebar-toggle"></div>
+  <div id="container">
+    <div class="docs markdown"><div class="pilwrap" id="getting-started-with-jfrog-docker-repos-example">
+  <h1>
+    <a href="#getting-started-with-jfrog-docker-repos-example" name="getting-started-with-jfrog-docker-repos-example" class="pilcrow"></a>
+Getting started with JFrog Docker Repos - Example
+  </h1>
+</div>
+<p>This repo contains a simple Dockerfile that can be used to exercise Docker repositories in Artifactory via the <a href="https://jfrog.com/content/docker-tshirt-challenge/">Docker Challenge</a>.</p>
+<p>This Dockerfile assumes the following:</p>
+<ul>
+<li>A local docker repository with the name &quot;docker-dev-local&quot; has been created in Artifactory</li>
+<li>A remote docker repository with the name &quot;docker-hub-remote&quot; has been created in Artifactory</li>
+<li>A virtual docker repository with the name &quot;docker&quot; has been created in Artifactory and includes the &quot;docker-dev-local&quot; and &quot;docker-hub-remote&quot; repositories with the &quot;docker-dev-local&quot; repository set as the Default Deployment Repository.</li>
+</ul>
+<p>To learn more about JFrog Platform integration with Docker, visit <a href="https://www.jfrog.com/confluence/display/JFROG/Docker+Registry">Docker Registry Documentation</a>.</p>
+</div>
+  </div>
+</body>
+</html>
